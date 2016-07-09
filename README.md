@@ -24,7 +24,7 @@ _software_
 
 using repetier instead of marlin for color mixing and due board support - untested but configuration should work?
 
-__other__
+_other_
 
 using the excellent bed knobs by [bhstibal](http://www.thingiverse.com/thing:1645108)
 
