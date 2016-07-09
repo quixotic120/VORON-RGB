@@ -38,8 +38,11 @@ adding a thermal fuse to the bed
 
 ##TODO:
 Printer enclosure
+
 RADDS enclosure - would like an enclosure that could hold RADDS, due, a pi zero for octoprint, and a header for powering accessories. Ideally in the style of the voron RAMPS enclosure
+
 Camera mount
+
 Filament Jam sensor and the possible modifications needed to firmware to make such a thing work with multiple filament extruders
 
 #__original readme__
