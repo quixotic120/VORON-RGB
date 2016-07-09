@@ -8,24 +8,39 @@ increased volume - 300x300x300 (ish, lose some z axis as described below)
 
 _bed supports_
 
-modular steps updated to support anti-backlash delrin leadscrew nuts
+modular steps updated to support anti-backlash delrin leadscrew nuts. For modded parts I've posted 123dx files and STLs. Also have an untested modification of the non-modular one if that's your thing.
 
 _electronics_
 
-currently using RADDS 1.5 w/ silentstepsticks but hopefully will be using my version of RAMPS-FD soon (once the kinks are worked out, on my git). Have modded the RADDS a bit with better headers and a converter for the RRD-graphic LCD
+currently using RADDS 1.5 w/ silentstepsticks but hopefully will be using my version of [RAMPS-FD](https://github.com/quixotic120/bobc_hardware/tree/master/RAMPS-FD)soon (once the kinks are worked out, on my git). Have modded the RADDS a bit with better headers and a converter for the RRD-graphic LCD
 
 _color mixing hotend support_
 
 added mount for the diamond hotend, different extruder design and 3 extruders for color mixing purposes (hopefully 5 soon for full color!). Kept it in line with the modular format used so it should be fairly easy to swap in a different hotend (I have an extra e3dv6-lite for this). 2 reasons: 1 being the diamond brings a lot of complexity so if it's not needed I prefer to avoid it and 2 being that the diamond is HUGE and you lose a bit of z axis as a result
 
+extruder being used is [located here](https://github.com/quixotic120/printer-mods/tree/master/bowden)
+
 _software_
 
-using repetier instead of marlin for color mixing and due board support
+using repetier instead of marlin for color mixing and due board support - untested but configuration should work?
+
+__other__
+
+using the excellent bed knobs by [bhstibal](http://www.thingiverse.com/thing:1645108)
+
+considering using [hall effect endstops](https://github.com/quixotic120/hall-o)
+
+using dc42s diff IR endstop instead of the inductive ones which kind of suck IMO. if you use the diff IR it is beneficial to paint the PEI black with high temp paint (like the kind of grills or engines)
+
+using e3d pt-100 for hotends, using the e3d cartridge thermistor on the bed
+
+adding a thermal fuse to the bed
 
 ##TODO:
 Printer enclosure
 RADDS enclosure - would like an enclosure that could hold RADDS, due, a pi zero for octoprint, and a header for powering accessories. Ideally in the style of the voron RAMPS enclosure
 Camera mount
+Filament Jam sensor and the possible modifications needed to firmware to make such a thing work with multiple filament extruders
 
 #__original readme__
 
