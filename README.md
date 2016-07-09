@@ -27,6 +27,8 @@ Printer enclosure
 RADDS enclosure - would like an enclosure that could hold RADDS, due, a pi zero for octoprint, and a header for powering accessories. Ideally in the style of the voron RAMPS enclosure
 Camera mount
 
+#__original readme__
+
 # VORON  
 ![](https://raw.githubusercontent.com/mzbotreprap/VORON/master/Resources/img/voron_assembly.png)
 
