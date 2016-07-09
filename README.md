@@ -3,18 +3,23 @@
 a fork to collect my changes to the Voron design. WIP at this point and untested but the changes are somewhat minor
 
 ##changes
+
 increased volume - 300x300x300 (ish, lose some z axis as described below)
 
-#bed supports
+_bed supports_
+
 modular steps updated to support anti-backlash delrin leadscrew nuts
 
-#electronics
-currently using RADDS 1.5 w/ silentstepsticks but hopefully will be using my version of RAMPS-FD soon (once the kinks are worked out, on my git)
+_electronics_
 
-#color mixing hotend support 
+currently using RADDS 1.5 w/ silentstepsticks but hopefully will be using my version of RAMPS-FD soon (once the kinks are worked out, on my git). Have modded the RADDS a bit with better headers and a converter for the RRD-graphic LCD
+
+_color mixing hotend support_
+
 added mount for the diamond hotend, different extruder design and 3 extruders for color mixing purposes (hopefully 5 soon for full color!). Kept it in line with the modular format used so it should be fairly easy to swap in a different hotend (I have an extra e3dv6-lite for this). 2 reasons: 1 being the diamond brings a lot of complexity so if it's not needed I prefer to avoid it and 2 being that the diamond is HUGE and you lose a bit of z axis as a result
 
-#software
+_software_
+
 using repetier instead of marlin for color mixing and due board support
 
 ##TODO:
